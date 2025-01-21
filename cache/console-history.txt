@@ -1,0 +1,24 @@
+.exit
+exit
+.quit
+quit
+console.log("Total Supply:", totalSupply.toString());
+const totalSupply = await token.totalSupply();
+console.log("Token Symbol:", symbol);
+const symbol = await token.symbol();
+console.log("Token Name:", name);
+const name = await token.name();
+const token = await ethers.getContractAt("MyToken", "0x99a5ca76bfAFA17FFD7b9c12639b4185E1959110");
+quit
+const token = await ethers.getContractAt("MyToken", "0x36beDa909C786158f2b0A7Cf77Ee8667ccA52099");
+quit
+const token = await ethers.getContractAt("MyToken", "0x36beDa909C786158f2b0A7Cf77Ee8667ccA52099");
+console.log("Total Supply:", totalSupply.toString());
+const totalSupply = await token.totalSupply();
+console.log("Token Symbol:", symbol);
+const symbol = await token.symbol();
+console.log("Token
+const name = await token.name();
+console.log("Token Name:", name);
+const name = await token.name();
+const token = await ethers.getContractAt("MyToken", "<DEPLOYED_CONTRACT_ADDRESS>");
